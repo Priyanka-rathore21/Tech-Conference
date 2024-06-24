@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Conference 2024</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1 class="logo">Tech Conference 2024</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#speakers">Speakers</a></li>
+                    <li><a href="#schedule">Schedule</a></li>
+                    <li><a href="#registration">Registration</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="container">
+            <h2 class="l">Welcome to Tech Conference 2024</h2>
+            <p class="lo">Join us for an inspiring and informative event featuring the latest in technology and innovation.</p>
+            <a href="#registration" class="btn">Register Now</a>
+        </div>
+    </section>
+
+    <section id="speakers">
+        <div class="container">
+            <h2>Speakers</h2>
+            <div class="grid">
+                <div class="card">
+                    <img src="lo.jpeg" alt="Speaker 1">
+                    <h3>John Doe</h3>
+                    <p>Expert in AI and Machine Learning</p>
+                </div>
+                <div class="card">
+                    <img src="lov.jpeg" alt="Speaker 2">
+                    <h3>Jane Smith</h3>
+                    <p>Renowned Cybersecurity Specialist</p>
+                </div>
+                <div class="card">
+                    <img src="love.jpeg" alt="Speaker 3">
+                    <h3>Robert Brown</h3>
+                    <p>Innovator in Cloud Computing</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="schedule">
+        <div class="container">
+            <h2>Schedule</h2>
+            <ul class="schedule-list">
+                <li>
+                    <span>9:00 AM</span>
+                    <span>Opening Keynote by John Doe</span>
+                </li>
+                <li>
+                    <span>10:30 AM</span>
+                    <span>Breakout Session: AI in Healthcare</span>
+                </li>
+                <li>
+                    <span>1:00 PM</span>
+                    <span>Lunch and Networking</span>
+                </li>
+                <li>
+                    <span>2:00 PM</span>
+                    <span>Panel Discussion: Future of Cybersecurity</span>
+                </li>
+                <li>
+                    <span>4:00 PM</span>
+                    <span>Closing Remarks</span>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="registration">
+        <div class="container">
+            <h2>Registration</h2>
+            <form id="registrationForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="ticket">Ticket Type:</label>
+                <select id="ticket" name="ticket" required>
+                    <option value="standard">Standard - $99</option>
+                    <option value="vip">VIP - $199</option>
+                </select>
+                
+                <button type="submit">Register</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Tech Conference. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
